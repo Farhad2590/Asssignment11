@@ -1,0 +1,72 @@
+
+.shadow-only{
+    box-shadow: 10px 10px 15px 0 #000000Fc;
+
+}
+
+.shadow-text{
+  text-shadow: 2px 2px #00004444;
+}
+.shadow-hover{
+
+}
+.shadow-hover:hover{
+    box-shadow: 10px 10px 15px 0 #000000Fc;
+}
+.box-hover{
+  pading: 5px;
+	position: relative;
+}
+.box-hover::before{
+  position:absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  border: 8px solid transparent;
+  box-sizing: border-box;
+}
+.box-hover::after{
+   position:absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  border: 8px solid transparent;
+  box-sizing: border-box;
+}
+
+.box-hover:hover::before{
+  height: 100%;
+  width: 100%;
+  border: 4px solid var(--colr);
+  border-bottom: none;
+  border-right: none;
+  transition: height 0.4s linear,
+    width 0.4s linear;
+}
+.box-hover:hover::after{
+  height: 100%;
+  width: 100%;
+  border: 4px solid var(--colr);
+  border-left: none;
+  border-top: none;
+  transition: height 0.4s linear,
+    width 0.4s linear;
+}
+.form-shadow{
+	box-shadow: 10px 10px 15px 0 #0000002c;
+}
+.form-shadow-deep{
+  box-shadow: 10px 10px 15px 0 #00002c;
+  
+}
+.form-shadow-hover{
+  box-shadow: 10px 10px 15px 0 #0000002c;
+
+}
+.form-shadow-hover:hover{
+	box-shadow: 10px 10px 15px 0 #00002c;
+}

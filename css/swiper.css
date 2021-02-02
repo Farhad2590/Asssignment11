@@ -1,0 +1,52 @@
+.swiper-container .swiper1{
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+ }
+.swiper1 .swiper-slide{
+      background-position: center;
+      background-size: cover;
+      width: 100px;
+      height: 100px;
+      display: table-cell !important;
+      vertical-align: center !important;
+      filter: blur(4px);
+}
+.swiper1 .swiper-slide-active{
+	filter: blur(0px);
+}
+.swiper2 .swiper-container {
+      width: 100%;
+      height: 100%;
+}
+
+.swiper2 .swiper-slide {
+      /*text-align: center;*/
+      /*font-size: 18px;*/
+      /*background: #fff;*/
+
+      /* Center slide text vertically */
+/*      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;*/
+   /*   -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+*/}
+.swiper-button-next{
+    left: 90%;
+    bottom: 0;
+    right: 0;
+    top: 90%;
+}
+.swiper-button-prev{
+    left: 85%;
+    bottom: 0;
+    right: 0;
+    top: 90%;
+}
